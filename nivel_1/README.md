@@ -1,7 +1,7 @@
 # Ponto de Venda
 
 * **O que o código faz:** Este programa simula um PDV (ponto de venda) simples. Ele registra várias compras seguidas, calcula os descontos de cada uma, mostra o valor final e, quando o usuário encerra, exibe um resumo do dia com a quantidade de compras, o total bruto, o total de descontos e o total final.
-* **Como ele faz:** O código recebe o valor da compra e a idade do cliente. Se a idade for maior ou igual a 65 anos, aplica-se um desconto de 20%. Se, após esse desconto, o valor ainda for maior que R$ 100, aplica-se um desconto extra de 10%. O desconto de 10% é aplicado sempre que o valor exceder R$ 100, independentemente da idade do cliente. Após isso, as compras são armazenadas em uma lista e o resumo diário é exibido.
+* **Como ele faz:** O código recebe o valor da compra e a idade do cliente. Se a idade for maior ou igual a 65 anos, aplica-se um desconto de 20%. Se, após esse desconto, o valor ainda for maior que R$ 100, aplica-se um desconto extra de 10%. O desconto de 10% é aplicado sempre que o valor exceder R$ 100, independentemente da idade do cliente. O programa encerra quando o usuário digita 0 no valor da compra. Após isso, as compras são armazenadas em uma lista e o resumo diário é exibido.
 * **Como rodar:** `python pdv.py`
 
 - **Tabela de exemplos:**
